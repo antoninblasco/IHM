@@ -1,0 +1,29 @@
+.diapo-ctn {
+    .apercu {
+        display: none;
+
+        .image {
+            height: 200px;
+            width: 400px;
+            background-image: url(../img/paysage.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+
+    .thumbnails {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .thumb {
+            background-image: url(../img/paysage.jpg);
+            background-size: cover;
+            height: 150px;
+            margin: 5px;
+        }
+    }
+}
+
+.controls-ctn {
+    text-align: center;
+}
